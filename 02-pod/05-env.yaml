@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: learn-env-variables
+spec:
+  containers:
+    - name: nginx-pod
+      image: nginx:latest
+      ports:  
+        - containerPort:  80
+      env:
+        - name: ENV1
+          value: saiteja
+        - name: ENV2
+          value: govindaram
