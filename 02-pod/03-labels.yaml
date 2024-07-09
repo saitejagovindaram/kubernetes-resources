@@ -5,7 +5,6 @@ metadata:
   labels:
     course: DevOps
     learner: saiteja
-
 spec:
   containers:
     - name: nginx-container
