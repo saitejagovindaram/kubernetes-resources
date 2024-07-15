@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: test_configmap
+  name: test-configmap
 data:
   firstName: saiteja
   lastName: govindaram
