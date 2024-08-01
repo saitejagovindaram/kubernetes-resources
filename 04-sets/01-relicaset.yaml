@@ -19,4 +19,4 @@ spec:
     spec:
       containers:
       - name: nginx-rs
-        image: nginx
+        image: nginx:stable-perl
